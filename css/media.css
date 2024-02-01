@@ -1,0 +1,164 @@
+@media (max-width:1050px){
+      .skate-content{
+            flex-direction: column-reverse;
+            align-items: center;
+            text-align: center;
+      }
+      .skate-right{
+            width: 100%;
+            height: auto;
+      }
+      .skate-left{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+      }
+      .free-content{
+            flex-direction: column;
+            gap: 10px;
+      }
+      
+}
+@media (max-width:1000px){
+      .right{
+            gap: 50px;
+      }
+}
+@media (max-width:880px){
+      .nav-list{
+            display: none;
+      }
+      .bars{
+            display: block;
+      }
+      .index-content{
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+      }
+      .index-left img{
+            width: 100%;
+            height: auto;
+      }
+      .index-right{
+            max-width: 100%;
+            margin-top: 50px;
+      }
+      .cards-content{
+            flex-wrap: wrap;
+            justify-content: center;
+      }
+      .plan-content{
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 30px;
+      }
+      .plan-left{
+            max-width: 100%;
+      }
+      
+}
+@media (max-width:800px){
+      .chuqur-content{
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+      }
+      .chuqur-left{
+            max-width: 100%;
+      }
+      .chuqur-right{
+            margin-top: 30px;
+      }
+      .chuqur-right img{
+            width: 100%;
+            height: auto;
+      }
+}
+@media (max-width:700px){
+      .nav{
+            flex-direction: column;
+      }
+      .right{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+      }
+      .btn{
+            padding: 10px 14px;
+            font-size: 14px;
+      }
+      .skate-left{
+            max-width: 100%;
+      }
+      .skate-left h1{
+            font-size: 50px;
+            margin-bottom: 15px;
+      }
+      .skate-left p{
+            font-size: 18px;
+            margin-bottom: 12px;
+      }
+      .skate-btn-sp{
+            flex-direction: column;
+            gap: 20px;
+      }
+      .logopet-content{
+            justify-content: center;
+            text-align: center;
+            gap: 50px;
+      }
+}
+@media (max-width:630px){
+      .skate-right img{
+            width: 100%;
+            height: auto;
+      }
+      .plan-left h1{
+            font-size: 42px;
+            line-height: 38px;
+      }
+}
+@media (max-width:540px){
+      .skate-left h1{
+            font-size: 38px;
+            line-height: 38px;
+      }
+      .skate-left p{
+            font-size: 15px;
+            line-height: 18px;
+      }
+      .skate-btn-sp button{
+            width: 180px;
+            height: 40px;
+            font-size: 14px;
+      }
+      .index-right h1{
+            font-size: 38px;
+            line-height: 38px;
+      }
+      .index-right p{
+            font-size: 15px;
+            line-height: 18px;
+      }
+      .chuqur-left h1{
+            font-size: 38px;
+            line-height: 38px;
+      }
+      .chuqur-left p{
+            font-size: 15px;
+            line-height: 18px;
+      }
+      .plan-right{
+            width: 320px;
+      }
+}
+@media (max-width:400px){
+      .free-card{
+            width: 320px;
+      }
+      .free-card:hover{
+            transform: scale(0.8);
+      }
+}
