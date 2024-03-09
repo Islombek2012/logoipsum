@@ -545,3 +545,40 @@ body {
 .free-card:hover .abso{
   height: 100%; 
 } 
+
+.resNav{
+  width: 100%;
+  position: fixed;
+  height: 0;
+  top: 125.33px;
+  left: 0;
+  background-color: #FF7143;
+  z-index: 500;
+  padding: 0 40px;
+  overflow: hidden;
+  transition:  0.3s linear;
+}
+.resNav.active{
+  height: auto;
+  padding: 40px;
+  transition:  0.3s linear;
+}
+.resNav ul{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.resNav ul li a{
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "DM Sans";
+}
+.resNav ul li a:hover{
+  color: black;
+  cursor: pointer;
+}
+.resNav ul .li span{
+  display: none;
+}
+
